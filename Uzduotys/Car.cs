@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Uzduotys
 {
-    public class Car
+    public abstract class Car : IVehicle
     {
         public string Model { get; set; }
         public int Fuel { get; set; }

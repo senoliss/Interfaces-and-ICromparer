@@ -8,7 +8,7 @@ namespace Comparer
 {
     public class Student
     {
-        public int Id = 0;
+        public int Id;
         public string Name { get; set; }
         public int Year { get; set; }
     }
